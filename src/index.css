@@ -1,0 +1,32 @@
+.admin-form{
+    width: 500px;
+    /* min-width: 300px; */
+    height:fit-content;
+    margin: 10vh auto;
+    
+}
+.img{
+    width: 500px;
+}
+.wrapper{
+    background-color: #a699eb;
+    min-height: 100vh;
+    display: flex;
+}
+@media screen and (max-width:998px) {
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .admin-form{
+        margin: 15vh auto;
+
+    }
+
+    
+}
+@media screen and (max-width:499px){
+    .admin-form{
+        width:100%
+    }
+
+}
