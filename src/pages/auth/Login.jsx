@@ -7,7 +7,7 @@ const inputs = [
   {
     name:'email',
     label:'Email',
-    placeholder:"email address",
+    placeholder:"Email address",
     type:"email",
     required:true
     
